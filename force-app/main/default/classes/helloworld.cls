@@ -1,5 +1,8 @@
 public with sharing class HelloWorld {
     public static String sayHello() {
-        return 'Hello from CI/CD Pipeline testingg!';
+HEAD
+        return 'Hello from CI/CD Pipeline!';
+        return 'Hello from CI/CD Pipeline testing';
+feature/first-test
     }
 }
